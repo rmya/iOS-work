@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="r7a-2M-9B8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ToyStore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="car_juguete" translatesAutoresizingMaskIntoConstraints="NO" id="1vY-cQ-YrU">
+                                <rect key="frame" x="127" y="104" width="160" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="Dg7-rh-ldP"/>
+                                    <constraint firstAttribute="height" constant="160" id="WNT-2h-tMc"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3s-g1-F98">
+                                <rect key="frame" x="175" y="286" width="64.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Antika" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" name="color2"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" name="mainColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Açıklama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1v9-oZ-gfe">
+                                <rect key="frame" x="32" y="339" width="94.5" height="26.5"/>
+                                <color key="tintColor" name="mainColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" name="mainColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKM-sz-uJv">
+                                <rect key="frame" x="32" y="381.5" width="350" height="183"/>
+                                <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120.99 ₺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbV-T7-pS5">
+                                <rect key="frame" x="32" y="770" width="115.5" height="60"/>
+                                <color key="tintColor" name="mainColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="CY5-6A-NeO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="28"/>
+                                <color key="textColor" name="mainColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1d-EN-4qk">
+                                <rect key="frame" x="228.5" y="770" width="153.5" height="60"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Sepete Ekle" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                    <color key="baseBackgroundColor" name="mainColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="76" translatesAutoresizingMaskIntoConstraints="NO" id="1zx-qu-7w2">
+                                <rect key="frame" x="32" y="596.5" width="332" height="60"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="suit.heart" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yj6-S7-IaN">
+                                        <rect key="frame" x="0.0" y="1.5" width="60" height="57.5"/>
+                                        <color key="tintColor" name="mainColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="6nl-qr-2eq"/>
+                                            <constraint firstAttribute="height" constant="60" id="Xe7-2A-WzI"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.turn.up.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="3OZ-7O-lrZ">
+                                        <rect key="frame" x="136" y="1" width="60" height="57.5"/>
+                                        <color key="tintColor" name="mainColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="JMy-7U-2yv"/>
+                                            <constraint firstAttribute="height" constant="60" id="Pfy-6e-IA3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tray.and.arrow.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BWU-GZ-W7x">
+                                        <rect key="frame" x="272" y="-0.5" width="60" height="60.5"/>
+                                        <color key="tintColor" name="mainColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="3zl-JZ-Pq3"/>
+                                            <constraint firstAttribute="width" constant="60" id="zsp-mP-gSt"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Ng3-fF-pBu"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1v9-oZ-gfe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="1sB-Ae-ZT1"/>
+                            <constraint firstItem="m1d-EN-4qk" firstAttribute="trailing" secondItem="eKM-sz-uJv" secondAttribute="trailing" id="2cP-2u-Fbs"/>
+                            <constraint firstItem="1v9-oZ-gfe" firstAttribute="top" secondItem="K3s-g1-F98" secondAttribute="bottom" constant="22" id="661-FW-i13"/>
+                            <constraint firstItem="K3s-g1-F98" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8gZ-nh-ZvA"/>
+                            <constraint firstItem="K3s-g1-F98" firstAttribute="top" secondItem="1vY-cQ-YrU" secondAttribute="bottom" constant="22" id="DLJ-J3-Wcx"/>
+                            <constraint firstItem="1zx-qu-7w2" firstAttribute="leading" secondItem="bbV-T7-pS5" secondAttribute="leading" id="DbY-Nu-Ef8"/>
+                            <constraint firstItem="m1d-EN-4qk" firstAttribute="centerY" secondItem="bbV-T7-pS5" secondAttribute="centerY" id="MKe-4F-cYS"/>
+                            <constraint firstItem="eKM-sz-uJv" firstAttribute="leading" secondItem="1v9-oZ-gfe" secondAttribute="leading" id="QMF-Vc-zQl"/>
+                            <constraint firstItem="eKM-sz-uJv" firstAttribute="top" secondItem="1v9-oZ-gfe" secondAttribute="bottom" constant="16" id="a9I-0d-Cus"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eKM-sz-uJv" secondAttribute="trailing" constant="32" id="cLC-Rv-Y9Z"/>
+                            <constraint firstItem="1zx-qu-7w2" firstAttribute="top" secondItem="eKM-sz-uJv" secondAttribute="bottom" constant="32" id="eEf-mH-lfe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bbV-T7-pS5" secondAttribute="bottom" constant="32" id="iJU-k7-Wo3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m1d-EN-4qk" secondAttribute="bottom" constant="32" id="kuN-Gx-QFj"/>
+                            <constraint firstItem="1vY-cQ-YrU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o2p-LQ-eMM"/>
+                            <constraint firstItem="1vY-cQ-YrU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="taq-qv-Blu"/>
+                            <constraint firstItem="bbV-T7-pS5" firstAttribute="leading" secondItem="eKM-sz-uJv" secondAttribute="leading" id="urD-yc-29v"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gOE-jE-d23"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937.68115942028987" y="83.705357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jmY-d0-nWL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="r7a-2M-9B8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YOd-pa-7F9">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="a3x-NJ-b07"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="beO-Fm-Fz5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="27.536231884057973" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrowshape.turn.up.right" catalog="system" width="128" height="106"/>
+        <image name="car_juguete" width="1300" height="866"/>
+        <image name="suit.heart" catalog="system" width="128" height="109"/>
+        <image name="tray.and.arrow.down" catalog="system" width="128" height="109"/>
+        <namedColor name="color2">
+            <color red="1" green="0.73725490196078436" blue="0.68627450980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainColor">
+            <color red="0.584369957447052" green="0.0" blue="0.31462681293487549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
