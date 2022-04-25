@@ -1,0 +1,16 @@
+
+/* Class = "UILabel"; text = "Açıklama"; ObjectID = "1v9-oZ-gfe"; */
+"1v9-oZ-gfe.text" = "Açıklama";
+
+/* Class = "UIButton"; configuration.title = "Antika"; ObjectID = "K3s-g1-F98"; */
+"K3s-g1-F98.configuration.title" = "Antika";
+
+/* Class = "UILabel"; text = "120.99 ₺"; ObjectID = "bbV-T7-pS5"; */
+"bbV-T7-pS5.text" = "120.99 ₺";
+
+/* Class = "UILabel"; text = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "; ObjectID = "eKM-sz-uJv"; */
+"eKM-sz-uJv.text" = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ";
+
+/* Class = "UIButton"; configuration.title = "Sepete Ekle"; ObjectID = "m1d-EN-4qk"; */
+"m1d-EN-4qk.configuration.title" = "Sepete Ekle";
+
